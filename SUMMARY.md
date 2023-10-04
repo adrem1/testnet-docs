@@ -1,3 +1,3 @@
 # Table of contents
 
-* [☁ Oracle Cloud](README.md)
+* [👋 Welcome to Cardano Testnets](README.md)
