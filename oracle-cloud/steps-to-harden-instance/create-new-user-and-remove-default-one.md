@@ -1,26 +1,4 @@
----
-description: After our first connection we'll harden our instance to make it more secure.
----
-
-# ☁ Steps to harden instance
-
-There are many good resources on this topic, which I will link, other than repeating everything and reinventing the wheel.&#x20;
-
-{% hint style="danger" %}
-However, please pay attention to the **Hints**, as these highlight OCI-specific quirks that if left unchallenged will make server communications very difficult and lock you out of your instance!
-{% endhint %}
-
-### First hardening steps
-
-At the very least, before going any further, you should:
-
-* Update your system
-* Disable the _root_ account
-* Add some SWAP
-
-If you don't know how to do these things, please refer to [this guide](https://gist.github.com/lokhman/cc716d2e2d373dd696b2d9264c0287a3).&#x20;
-
-### Create new user and remove default one
+# ☁ Create new user and remove default one
 
 First add a new user and give it superuser privileges:
 
