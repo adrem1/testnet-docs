@@ -40,6 +40,18 @@ First, give your instance a meaningful **name** (eg Preview-Relay) and then clic
 
 </div>
 
-{% hint style="danger" %}
-**WIP**
+{% hint style="info" %}
+You can leave the networking options set to default (**Primary and Secondary VNIC**)
+{% endhint %}
+
+Let OCI **generate a key-pair for you** (you will be changing this later anyway) and set your desired **boot disk** preferences (50 GB should suffice to start):
+
+<figure><img src="../.gitbook/assets/oracle08.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+If you already have keys that you'd rather use, go ahead. The one OCI generates will be throw-away anyway, as we'll be making new keys.&#x20;
+{% endhint %}
+
+{% hint style="success" %}
+**Success:** click on **Create** and wait for the your new instance to provision.
 {% endhint %}
