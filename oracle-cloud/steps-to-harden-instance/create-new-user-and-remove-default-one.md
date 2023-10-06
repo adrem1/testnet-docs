@@ -40,7 +40,7 @@ Before disconnecting your current session from the VM, open a new terminal windo
 {% endhint %}
 
 ```sh
-# Connecting to your instance for the first time
+# Connecting to your instance as the new user
 ssh -i "<path-to-the-new-oracle-key>" <your-chosen-username>@<the-ip4-address-of-the-new-vm>
 ```
 
