@@ -6,6 +6,8 @@ description: >-
 
 # 🚪 Change ssh port
 
+### 1. Edit Security List on OCI
+
 From the **OCI control panel** navigate to **Compute > Instances** and **select your instance**. You should see something like this:
 
 <figure><img src="../../.gitbook/assets/oracle09.png" alt=""><figcaption></figcaption></figure>
@@ -36,6 +38,8 @@ In the following panel enter the required information:
 
 <figure><img src="../../.gitbook/assets/oracle13.png" alt=""><figcaption></figcaption></figure>
 
+### 2. Change SSH listening port in the daemon
+
 Next, connect to your instance as you did [here](../connecting-to-your-instance.md) and change SSH port on the VM:
 
 ```sh
@@ -54,6 +58,8 @@ More details about this process can be found [here](https://www.ubuntu18.com/ubu
 {% hint style="danger" %}
 **Please note:** you must include the following steps for this to work in OCI
 {% endhint %}
+
+### 3. Manage ingress rules with firewalld
 
 Install firewalld and set new rules:
 
