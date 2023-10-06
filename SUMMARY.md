@@ -10,3 +10,4 @@
     * [🚪 Change ssh port](oracle-cloud/steps-to-harden-instance/change-ssh-port.md)
     * [🔑 Changing keys](oracle-cloud/steps-to-harden-instance/changing-keys.md)
     * [⏩ Further hardening](oracle-cloud/steps-to-harden-instance/further-hardening.md)
+* [🪢 Cardano node installation](cardano-node-installation.md)
