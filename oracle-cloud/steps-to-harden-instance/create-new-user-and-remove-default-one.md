@@ -46,7 +46,7 @@ ssh -i "<path-to-the-new-oracle-key>" <your-chosen-username>@<the-ip4-address-of
 
 Once connected as your new user, delete the old one:
 
-```
+```bash
 sudo deluser --remove-home <ubuntu-or-other-default-user>
 ```
 
