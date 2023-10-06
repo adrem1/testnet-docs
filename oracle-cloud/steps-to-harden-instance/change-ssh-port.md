@@ -89,3 +89,17 @@ sudo firewall-cmd --list-all
 # Connecting to your instance with the new port (add the -p flag)
 ssh -i "<path-to-the-new-oracle-key>" -p <the-port-you-selected-earlier> ubuntu@<the-ip4-address-of-the-new-vm>
 ```
+
+{% hint style="info" %}
+A couple of links regarding this process:
+
+[Ways to manage access to OCI instances](https://stackoverflow.com/questions/62326988/cant-access-oracle-cloud-always-free-compute-http-port);
+
+[Problems with firewalld rules](https://unix.stackexchange.com/questions/492124/setting-firewall-cmd-permanent-is-not-sticking-after-reboot);
+
+[Controlling system access with firewalld](https://docs.fedoraproject.org/en-US/quick-docs/firewalld/);
+
+[Opening ports to specific IPs](https://www.tutorialspoint.com/how-to-open-port-for-a-specific-ip-address-in-firewalld);
+
+[Managing traffic with zones in firewalld](https://access.redhat.com/documentation/it-it/red\_hat\_enterprise\_linux/7/html/security\_guide/sec-using\_zones\_to\_manage\_incoming\_traffic\_depending\_on\_source).
+{% endhint %}
