@@ -54,3 +54,32 @@ More details about this process can be found [here](https://www.ubuntu18.com/ubu
 {% hint style="danger" %}
 **Please note:** you must include the following steps for this to work in OCI
 {% endhint %}
+
+Install firewalld and set new rules:
+
+```bash
+# Install firewalld
+sudo apt install firewalld
+
+# Firewalld should come enabled and auto-start. In case it doesn't do:
+sudo systemctl enable firewalld
+sudo systemctl start firewalld
+
+# Add the new ssh port to the public zone
+sudo firewall-cmd --zone=public --add-port=<the-port-you-selected-earlier>/tcp --permanent 
+
+# Reload firewalld rules
+sudo firewall-cmd --reload
+
+# Check that the rule stuck
+sudo firewall-cmd --list-all                
+```
+
+{% hint style="danger" %}
+**Please note:** before disconnecting your current session, open a new Terminal session and ssh using your new port&#x20;
+{% endhint %}
+
+```sh
+# Connecting to your instance with the new port (add the -p flag)
+ssh -i "<path-to-the-new-oracle-key>" -p <the-port-you-selected-earlier> ubuntu@<the-ip4-address-of-the-new-vm>
+```
