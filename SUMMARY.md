@@ -7,4 +7,4 @@
   * [💎 Steps to harden instance](oracle-cloud/steps-to-harden-instance/README.md)
     * [👟 First steps](oracle-cloud/steps-to-harden-instance/first-steps.md)
     * [👪 Create new user and remove default one](oracle-cloud/steps-to-harden-instance/create-new-user-and-remove-default-one.md)
-    * [🗝 Change key and ssh port](oracle-cloud/steps-to-harden-instance/change-key-and-ssh-port.md)
+    * [🚪 Change ssh port](oracle-cloud/steps-to-harden-instance/change-ssh-port.md)
