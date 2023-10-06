@@ -87,7 +87,7 @@ sudo firewall-cmd --list-all
 
 ```sh
 # Connecting to your instance with the new port (add the -p flag)
-ssh -i "<path-to-the-new-oracle-key>" -p <the-port-you-selected-earlier> ubuntu@<the-ip4-address-of-the-new-vm>
+ssh -i "<path-to-the-new-oracle-key>" -p <the-port-you-selected-earlier> <your-chosen-username>@<the-ip4-address-of-the-new-vm>
 ```
 
 {% hint style="info" %}

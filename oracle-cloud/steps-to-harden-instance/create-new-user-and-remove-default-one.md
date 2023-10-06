@@ -35,9 +35,14 @@ touch .ssh/authorized_keys
 nano .ssh/authorized_keys # paste the public key here  
 ```
 
-{% hint style="info" %}
+{% hint style="danger" %}
 Before disconnecting your current session from the VM, open a new terminal window and try to connect as the new user with the old key, to check that everything worked.
 {% endhint %}
+
+```sh
+# Connecting to your instance for the first time
+ssh -i "<path-to-the-new-oracle-key>" <your-chosen-username>@<the-ip4-address-of-the-new-vm>
+```
 
 Once connected as your new user, delete the old one:
 
