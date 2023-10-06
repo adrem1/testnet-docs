@@ -2,7 +2,7 @@
 description: After our first connection we'll harden our instance to make it more secure.
 ---
 
-# ☁ Steps to harden instance
+# 💎 Steps to harden instance
 
 There are many good resources on this topic, which I will link, other than repeating everything and reinventing the wheel.&#x20;
 

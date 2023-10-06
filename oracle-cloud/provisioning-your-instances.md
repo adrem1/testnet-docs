@@ -2,7 +2,7 @@
 description: Let's create our first VMs on OCI to run Testnet nodes.
 ---
 
-# ☁ Provisioning your instances
+# 💻 Provisioning your instances
 
 {% hint style="info" %}
 **Please note:** OCI does not support this documentation in any way, financial or otherwise.

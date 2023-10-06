@@ -1,4 +1,4 @@
-# ☁ First steps
+# 👟 First steps
 
 At the very least, before going any further, you should:
 

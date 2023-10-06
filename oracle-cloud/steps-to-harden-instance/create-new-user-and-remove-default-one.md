@@ -1,8 +1,8 @@
-# ☁ Create new user and remove default one
+# 👪 Create new user and remove default one
 
 First add a new user and give it superuser privileges:
 
-```
+```sh
 # Create a new user
 sudo adduser <your-chosen-username>
 
@@ -21,14 +21,14 @@ sudo apt update # (or any other command)
 
 On you local machine, find the public key:
 
-```
+```sh
 # Do this, and copy the output
 ssh-keygen -y -f <path-to-the-new-oracle-key>
 ```
 
 On your VM, paste the public key to the correct file:
 
-```
+```sh
 # Do this from the new user home
 mkdir .ssh
 touch .ssh/authorized_keys
